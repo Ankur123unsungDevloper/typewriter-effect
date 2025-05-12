@@ -24,3 +24,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.typewriterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #282c34; /* Dark background */
+  color: white; /* White text */
+  font-family: 'Courier New', Courier, monospace; /* Monospace font for typewriter effect */
+}
+
+.typewriterText {
+  font-size: 2rem; /* Adjust font size */
+  margin: 0; /* Remove default margin */
+}
+.cursor {
+  font-size: 2rem; /* Match cursor size with text */
+  color: #61dafb; /* Cursor color */
+}
